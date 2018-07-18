@@ -47,6 +47,11 @@
       /*border-color: white;*/
   }
 
+#wrapper {
+   -webkit-overflow-scrolling: touch;
+  	overflow-y: scroll;
+}
+
 body {
         overflow: hidden;
 }
