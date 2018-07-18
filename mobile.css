@@ -1,1 +1,27 @@
-
+.topcorner{
+   position:fixed;
+   top:2px;
+   right:0px;
+   z-index:11;
+  visibility:hidden;
+  }
+   .footer{
+   position:fixed;
+   top:0;
+   left:0;
+   right:0;
+   z-index:10;
+   height: 6.5vh;
+  }
+  
+  #frame {
+      z-index: 5;
+      width: 100%;
+      height: 100%;
+      position:fixed; 
+      top: 0px; 
+      left:0px; 
+      bottom:0px; 
+      right:0px;
+      /*border-color: white;*/
+  }
