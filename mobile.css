@@ -19,6 +19,7 @@
    color:#fff;
    width:100%;
    height:1.5vh;
+   visibility:hidden;
   }
   
   #frame {
