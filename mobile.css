@@ -34,6 +34,6 @@
       /*border-color: white;*/
   }
 
-html, body {
-   overflow:auto;
+body {
+        overflow: hidden;
 }
