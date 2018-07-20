@@ -1,7 +1,7 @@
  .topcorner{
    position:fixed;
    top:0px;
-   right:0px;
+   right:15px;
    z-index:11;
    /*height: 40px;*/
   }
