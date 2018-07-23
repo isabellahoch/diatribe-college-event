@@ -30,6 +30,8 @@
 #wrapper {
 -webkit-overflow-scrolling: touch;
   	overflow-y: scroll;
+   overflow:auto;
+   -webkit-overflow-scrolling:touch"
 }
   
   #frame {
