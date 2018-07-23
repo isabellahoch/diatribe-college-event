@@ -9,6 +9,11 @@
   width:100vw;
   height:50px;
   }
+
+.newadstyle p{
+   color:#000;
+   font-size: 12pt;
+  }
    .footer{
    position:fixed;
    bottom:0;
