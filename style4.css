@@ -4,13 +4,13 @@
    right:0px;
    left:0px;
    z-index:999;
-  background-color: #003CFF; 
+  background-color: #fff; 
   width:100vw;
   height:50px;
   }
 
 .newadstyle p{
-   color:white;
+   color: black;
    font-size: 12pt;
    text-align: center;
    font-family: 'Spinnaker', sans-serif;
