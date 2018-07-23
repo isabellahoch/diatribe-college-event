@@ -2,7 +2,8 @@
    position:fixed;
    top:2px;
    right:0px;
-   z-index:11;
+   left:0px;
+   z-index:999;
   background-color: #fff; 
   color:#fff;
   width:100%;
