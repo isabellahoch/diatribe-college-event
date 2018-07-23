@@ -12,6 +12,7 @@
 .newadstyle p{
    color:#000;
    font-size: 12pt;
+   text-align: center;
   }
    .footer{
    position:fixed;
