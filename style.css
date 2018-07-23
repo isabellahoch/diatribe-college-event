@@ -14,7 +14,7 @@
   }
 
    .top{
-   position:fixed;
+   position:absolute;
    top:0;
    left:0;
    right:0;
@@ -34,3 +34,9 @@
       right:0px;
       border:none;
   }
+
+#holder {
+ position:relative;
+  width:100vw;
+ height:100vh;
+}
