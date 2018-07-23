@@ -29,9 +29,9 @@
 
 #wrapper {
 -webkit-overflow-scrolling: touch !important;
-  	overflow-y: scroll;
+  	overflow-y: scroll !important;
    overflow:auto !important;
-   -webkit-overflow-scrolling:touch"
+/*    -webkit-overflow-scrolling:touch" */
 }
   
   #frame {
