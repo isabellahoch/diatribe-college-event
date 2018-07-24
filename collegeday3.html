@@ -60,6 +60,13 @@ body {
     color: black;
 }
 </style>
+        
+        <script>
+           var iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+           if (iOS) {
+               window.location.href("http://diatribe.org/collegedaywix")
+           }
+        </script>
 
 </head>
 <body>
