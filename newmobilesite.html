@@ -65,7 +65,7 @@ h1 {
 	margin: 30px;
 	color: blue;
 }
-.newadstyle{
+#newadstyle{
    position:fixed;
    top:0px;
    right:0px;
@@ -74,9 +74,16 @@ h1 {
   background-color: #fff; 
   width:100vw;
   height:50px;
-	padding-bottom: 15px;
   }
-.newadstyle p{
+
+.desktop-br #newadstyle {
+padding-bottom: 0px;	
+		}
+    .mobile-br #newadstyle {
+padding-bottom: 15px;
+		}
+
+#newadstyle p{
    color: black;
    font-size: 12pt;
    text-align: center;
@@ -89,10 +96,14 @@ h1 {
 <div class="iframe-wrapper">
 	<iframe style="height: 100vh;" src="https://diatribecollegeday.wixsite.com/2018"></iframe>
 </div>
- <div z-index=15 class="newadstyle" id="illegalactivity">
-            <p id="dtfoundation">Want to learn more about the <span class="mobile-br"><br></span>
+ <div z-index=15 id="newadstyle">
+            <p id="dtfoundation" class="mobile-br">Want to learn more about the <span class="mobile-br"><br></span>
 diaTribe Foundation? Click <a href="https://diatribe.org/foundation/">here</a>!</p>
         </div>
+ 	<p id="dtfoundation" class="desktop-br">Want to learn more about the <span class="mobile-br"><br></span>
+diaTribe Foundation? Click <a href="https://diatribe.org/foundation/">here</a>!</p>
+        </div>
+	
 </div>
 </body>
 </html>
