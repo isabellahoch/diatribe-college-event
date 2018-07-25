@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+body, html {
+	position: relative;
+	overflow: auto;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+body.noscroll {
+	overflow: hidden;
+}
+.widget-wrapper {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	box-sizing: border-box;
+	overflow: auto;
+ 	height: 100%;
+ 	-webkit-overflow-scrolling: touch;
+}
+.iframe-wrapper {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	width: 100%;
+	height: 100%;
+	-webkit-overflow-scrolling:touch;
+	overflow-y: scroll;
+}
+iframe {
+	display: block;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+	opacity: 0.9;
+	min-height: 100%;
+	-webkit-overflow-scrolling: touch;
+}
+h1 {
+	margin: 30px;
+	color: blue;
+}
+</style>
+</head>
+<body class="noscroll">
+<div class="widget-wrapper" style="background: rgba(255,255,255,0.9)">
+<div class="iframe-wrapper">
+	<iframe style="height: 100vh;" src="https://diatribecollegeday.wixsite.com/2018"></iframe>
+</div>
+</div>
+</body>
+</html>
