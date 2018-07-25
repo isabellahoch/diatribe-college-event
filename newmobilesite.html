@@ -24,9 +24,11 @@ body, html {
 	margin: 0;
 	padding: 0;
 }
+		
 body.noscroll {
 	overflow: hidden;
 }
+		
 .widget-wrapper {
 	position: fixed;
 	top: 0;
@@ -38,6 +40,7 @@ body.noscroll {
  	height: 100%;
  	-webkit-overflow-scrolling: touch;
 }
+		
 .iframe-wrapper {
 	margin: 0;
 	padding: 0;
@@ -48,6 +51,7 @@ body.noscroll {
 	overflow-y: scroll;
 	z-index:10;
 }
+		
 iframe {
 	display: block;
 	margin: 0;
@@ -61,10 +65,12 @@ iframe {
 	-webkit-overflow-scrolling: touch;
 	z-index:12;
 }
+		
 h1 {
 	margin: 30px;
 	color: blue;
 }
+		
 #newadstyle{
    position:fixed;
    top:0px;
@@ -90,12 +96,19 @@ p {
 .desktop-br #newadstyle {
 padding-bottom: 0px;	
 		}
-    .mobile-br #newadstyle {
+.mobile-br #newadstyle {
 padding-top: 5px;
 padding-bottom: 15px;
 		}
 
 #newadstyle p{
+   color: black;
+   font-size: 12pt;
+   text-align: center;
+   font-family: 'Spinnaker', sans-serif;
+  }
+		
+.desktop-br p{
    color: black;
    font-size: 12pt;
    text-align: center;
@@ -112,9 +125,9 @@ padding-bottom: 15px;
  <div z-index=15 id="newadstyle">
             <p id="dtfoundation" class="mobile-br">Want to learn more about the <span class="mobile-br"><br></span>
 diaTribe Foundation? Click <a href="https://diatribe.org/foundation/">here</a>!</p>
-        </div>
- 	<p id="dtfoundation" class="desktop-br">Want to learn more about the <span class="mobile-br"><br></span>
+	  <p id="dtfoundation" class="desktop-br">Want to learn more about the <span class="mobile-br"><br></span>
 diaTribe Foundation? Click <a href="https://diatribe.org/foundation/">here</a>!</p>
+        </div>
         </div>
 	
 </div>
