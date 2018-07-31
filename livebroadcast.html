@@ -1,11 +1,46 @@
 <!doctype html>
 <html>
 <head>
+<link href="https://fonts.googleapis.com/css?family=Spinnaker" rel="stylesheet">
+<link rel="shortcut icon" href="https://diatribe.org/sites/all/themes/diatribe/favicon.ico">
 <title>College Day Live Broadcast!</title>
+<style>
+  * {
+    font-family: 'Spinnaker', sans-serif;
+  }
+  
+  a {
+  }
+  
+  h2 {
+    font-size:20pt;
+    color: #003CFF;
+  }
+  
+  h3, h3 a {
+    font-size:15pt;
+    color: #000;
+    font-style: italic;
+  }
+  
+  #facebook-live {
+    border:none;
+    overflow:hidden;
+    width:100%;
+    height:100%;
+  }
+  #container {
+    width:100%;
+    height:100%;
+    text-align:center;
+    align-content:center;
+  </style>
 </head>
 <body>
-<div class="container"
-<iframe id = "facebook-live" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FdiaTribeNews%2Fvideos%2F10156533134732103%2F&width=1000" width="100%" height="100%" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+<div id="container">
+  <h2>diaTribe College Day Live Broadcast!</h2>
+  <h3>Check out the website for this event at <a href="diatribe.org/college">diatribe.org/college</a>!</h3>
+<iframe id = "facebook-live" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FdiaTribeNews%2Fvideos%2F10156533134732103%2F&width=1000" width="100%" height="100%" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
 </div>
 </body>
 </html>
