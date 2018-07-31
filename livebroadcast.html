@@ -49,12 +49,21 @@
 </head>
 <body>
 <div id="container">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
   <h2>diaTribe College Day Live Broadcast!</h2>
   <h3>Check out the website for this event at <a href="https://diatribe.org/college">diatribe.org/college</a>!</h3>
  <div id="iframecontainer">
 <!-- <iframe id = "facebook-live" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FdiaTribeNews%2Fvideos%2F10156533134732103%2F&width=1000&height=1000" width="1000" height="1000" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe> -->
-<iframe id = "facebook-live" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FdiaTribeNews%2Fvideos%2F10156533134732103%2F&width=1000&height=1000" width="1000" height="1000" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
-</div>
+<!-- <iframe id = "facebook-live" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FdiaTribeNews%2Fvideos%2F10156533134732103%2F&width=1000&height=1000" width="1000" height="1000" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe> -->
+<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FdiaTribeNews%2Fvideos%2F10156533134732103&width=1000&show_text=false&height=0&appId" width="1000" height="0" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" allowFullScreen="true"></iframe>
+ </div>
  </div>
 </body>
 </html>
